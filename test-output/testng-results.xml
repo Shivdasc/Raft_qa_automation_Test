@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-19T13:45:16 IST" name="Suite" finished-at="2024-08-19T13:46:01 IST" duration-ms="45477">
+    <groups>
+    </groups>
+    <test started-at="2024-08-19T13:45:16 IST" name="Test" finished-at="2024-08-19T13:46:01 IST" duration-ms="45477">
+      <class name="snapdeal_test.snapdeal">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:snapdeal_test.snapdeal@4cc451f2]" started-at="2024-08-19T13:45:16 IST" name="beforeTest" finished-at="2024-08-19T13:45:17 IST" duration-ms="1459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="TitleTest()[pri:1, instance:snapdeal_test.snapdeal@4cc451f2]" started-at="2024-08-19T13:45:17 IST" name="TitleTest" finished-at="2024-08-19T13:45:22 IST" duration-ms="5243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleTest -->
+        <test-method signature="VerifyFilteringOptionsTest()[pri:2, instance:snapdeal_test.snapdeal@4cc451f2]" started-at="2024-08-19T13:45:22 IST" name="VerifyFilteringOptionsTest" finished-at="2024-08-19T13:45:23 IST" duration-ms="886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFilteringOptionsTest -->
+        <test-method signature="VerifyClearFilterTest()[pri:3, instance:snapdeal_test.snapdeal@4cc451f2]" started-at="2024-08-19T13:45:23 IST" name="VerifyClearFilterTest" finished-at="2024-08-19T13:45:23 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClearFilterTest -->
+        <test-method signature="CartTest()[pri:4, instance:snapdeal_test.snapdeal@4cc451f2]" started-at="2024-08-19T13:45:23 IST" name="CartTest" finished-at="2024-08-19T13:45:24 IST" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartTest -->
+        <test-method signature="VerifyBrokenLinkTest()[pri:5, instance:snapdeal_test.snapdeal@4cc451f2]" started-at="2024-08-19T13:45:24 IST" name="VerifyBrokenLinkTest" finished-at="2024-08-19T13:45:40 IST" duration-ms="16007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBrokenLinkTest -->
+        <test-method signature="VerifyPincode()[pri:6, instance:snapdeal_test.snapdeal@4cc451f2]" started-at="2024-08-19T13:45:40 IST" name="VerifyPincode" finished-at="2024-08-19T13:45:41 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPincode -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:snapdeal_test.snapdeal@4cc451f2]" started-at="2024-08-19T13:45:41 IST" name="afterTest" finished-at="2024-08-19T13:46:01 IST" duration-ms="20217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- snapdeal_test.snapdeal -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
