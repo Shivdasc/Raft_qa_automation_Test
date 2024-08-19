@@ -6,18 +6,21 @@ Welcome to the Snapdeal QA Automation Project. This repository contains automate
 Tools and Technologies
 
 Selenium WebDriver
+
 Why Selenium WebDriver?
 - Web Automation: Selenium WebDriver is a robust tool for automating web interactions, making it ideal for testing dynamic web applications.
 - Cross-Browser Testing: It supports multiple browsers, allowing us to verify compatibility across different environments.
 - Integration: Selenium integrates seamlessly with various testing frameworks and tools, enhancing its versatility.
 
  TestNG
+
 Why TestNG?
 - Flexible Configuration: TestNG's XML-based configuration facilitates easy management of test suites and test cases.
 - Parallel Execution: The ability to run tests in parallel speeds up the execution process, which is crucial for large test suites.
 - Reporting: Provides detailed and comprehensive reports, helping in effective tracking and analysis of test results.
 
 Java
+
 Why Java?
 - Rich Ecosystem: Java's extensive libraries and frameworks complement Selenium and TestNG, providing a solid foundation for automation.
 - Performance: Known for its performance and reliability, Java is well-suited for executing extensive and complex test scenarios.
