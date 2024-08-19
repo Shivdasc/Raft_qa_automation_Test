@@ -75,14 +75,11 @@ Challenges and Resolutions
 Dynamic Web Elements
 
 Issue: Some web elements were not immediately available for interaction.
-
 Solution: Implemented explicit waits and retry logic to handle these elements effectively.
-
 
 Handling Broken Links
 
 Issue: Some links were dynamically generated, making it challenging to verify all links reliably.
-
 Solution: Limited the link check to a manageable number and included exception handling to address temporary issues.
 
 Conclusion
