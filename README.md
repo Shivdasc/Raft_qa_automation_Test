@@ -27,6 +27,7 @@ Why Java?
 - Community Support: A large user community offers ample resources and support, aiding in development and troubleshooting.
 
 Test Cases
+
 The following test cases have been implemented to ensure the functionality and reliability of the Snapdeal website:
 1. Title Verification
    - Objective: Confirm that the page title matches the expected title.
@@ -53,6 +54,7 @@ The following test cases have been implemented to ensure the functionality and r
    - Reason: Validates that users can check product availability in their area, improving the relevance of search results.
 
 Test Implementation
+
 The test cases are implemented using the following classes:
 - VerifyBrokenLink.java: Checks for and reports broken links on the page.
 - VerifyCart.java: Tests the cart's functionality, including adding and viewing items.
@@ -61,6 +63,7 @@ The test cases are implemented using the following classes:
 - VerifyPincodeSearch.java: Tests the functionality of the pincode input field.
 
 Running the Tests
+
 To execute the test suite, you can use the following methods:
 - Via IDE: Open `testng.xml` in your preferred IDE and run it as a TestNG suite.
 
@@ -68,15 +71,22 @@ To execute the test suite, you can use the following methods:
   mvn test -DsuiteXmlFile=testng.xml
 
 Challenges and Resolutions
+
 Dynamic Web Elements
+
 Issue: Some web elements were not immediately available for interaction.
+
 Solution: Implemented explicit waits and retry logic to handle these elements effectively.
 
+
 Handling Broken Links
+
 Issue: Some links were dynamically generated, making it challenging to verify all links reliably.
+
 Solution: Limited the link check to a manageable number and included exception handling to address temporary issues.
 
 Conclusion
+
 This project provides a comprehensive suite of automated tests for the Snapdeal website, leveraging Selenium WebDriver and TestNG. These tests help ensure that the website remains functional and user-friendly. If you have any questions or need further information, please feel free to reach out.
 
 Thank you for reviewing this project!
